@@ -2,7 +2,7 @@
 
 namespace JorgeMoncayoL_EjercicioCF.Models
 {
-    public class Class
+    public class Burguer
     {
         public int Id { get; set; }
         [Required]
