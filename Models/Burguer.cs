@@ -8,8 +8,10 @@ namespace JorgeMoncayoL_EjercicioCF.Models
         [Required]
         public string? Name { get; set; }
         public bool WithCheese { get; set; }
-        [Range(0.01, 9999.99)]
+        [Range(0.01, 15.99)]
         public decimal Precio { get; set; }
+
+        public List<Promo>? Promo { get; set; } // El list hace que una hamburguesa pueda estar en varias promociones
 
     }
 }

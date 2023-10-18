@@ -4,6 +4,7 @@ using JorgeMoncayoL_EjercicioCF.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JorgeMoncayoL_EjercicioCF.Migrations
 {
     [DbContext(typeof(JorgeMoncayoL_EjercicioCFContext))]
-    partial class JorgeMoncayoL_EjercicioCFContextModelSnapshot : ModelSnapshot
+    [Migration("20231018135942_migrations")]
+    partial class migrations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -15,5 +15,6 @@ namespace JorgeMoncayoL_EjercicioCF.Data
         }
 
         public DbSet<JorgeMoncayoL_EjercicioCF.Models.Burguer> Burguer { get; set; } = default!;
+        public DbSet<JorgeMoncayoL_EjercicioCF.Models.Promo> Promo { get; set; } 
     }
 }
